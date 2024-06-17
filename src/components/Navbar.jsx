@@ -9,7 +9,7 @@ export default function Navbar(){
             <div className="logo-container w-25">
                 <img src={logo} alt="logo" />
             </div>
-            <div className="w-50">
+            <div className="w-50 ms-auto">
                 <MenuList className="menu">
                     <MenuItem><Link to="/" className="link">Home</Link></MenuItem>
                     <MenuItem><Link to="/about" className="link">About</Link></MenuItem>

@@ -1,9 +1,10 @@
 .nav-container{
     display: flex;
     width: 100vw;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     background-color: transparent;
+    padding-left: 1rem;
 }
 .menu{
     display: flex;
@@ -27,4 +28,68 @@
 .login:hover{
     background-color: rgba(0, 21, 255, 0.756);
     color: white;
+}
+.aboutOuter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutInner{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.explore{
+    background-color: palevioletred;
+    border-radius: 2rem;
+    width: 13rem;
+    border: none;
+}
+.img{
+    width: 40%;
+}
+.servicesOuter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.inner1 > img {
+    height: 2.75rem;
+}
+.d1{
+    background-color: rgba(127, 255, 212, 0.229);
+}
+.inner1{
+    width: 15rem;
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin: 1rem;
+}
+.d2{
+    background-color: rgba(255, 255, 0, 0.077);
+}
+.d3{
+    background-color: rgba(216, 112, 147, 0.174);
+}
+.d4{
+    background-color: rgba(221, 160, 221, 0.175);
+}
+.inner1 > .p{
+    color: blueviolet;
+    font-weight: bold;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: pink;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px palevioletred;
+    border-radius: 10px;
+    background-clip: content-box;
 }
