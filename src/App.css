@@ -93,3 +93,29 @@
     border-radius: 10px;
     background-clip: content-box;
 }
+.destinationOuter{
+    margin-top: 7rem;
+}
+.headingDestination{
+    color: blueviolet;
+    font-weight: bold;
+}
+.headTopDestination{
+    font-weight: bold;
+}
+.card-img-top{
+    border-radius: 1rem;
+}
+.destination{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.star{
+    color: yellow;
+}
+.starbtn{
+    border: 1px solid salmon;
+}
