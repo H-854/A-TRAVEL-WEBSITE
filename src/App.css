@@ -119,3 +119,30 @@
 .starbtn{
     border: 1px solid salmon;
 }
+.xpOuter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.expShape{
+    position: relative;
+    left: 8%;
+    top: 5rem;
+}
+.expInner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.headExp{
+    font-weight: bolder;
+}
+.xpSm > h3{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: blueviolet
+}
+.photoGallery{
+    width: 100vw;
+}

@@ -2,9 +2,6 @@ import DestinationPlace from "./Destplace"
 import destination1 from '../assets/images/destination1.jpg';
 import destination2 from '../assets/images/destination2.jpg';
 import destination3 from '../assets/images/destination3.jpg';
-import destination4 from '../assets/images/destination4.jpg';
-import destination5 from '../assets/images/destination5.jpg';
-import destination6 from '../assets/images/destination6.jpg';
 
 export default function Destination(){
     return (
