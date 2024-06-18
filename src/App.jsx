@@ -5,6 +5,8 @@ import Services from './components/Services'
 import Destination from './components/Destination'
 import Experience from './components/Experience'
 import Gallery from './components/Gallery'
+import Getstarted from './components/Getstarted'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -19,9 +21,10 @@ function App() {
           <Destination/>
           <Experience/>
           <Gallery/>
+          <Getstarted/>
         </div>
         <div className="footer">
-            
+            <Footer/>
         </div>
       </div>
     </>

@@ -12,7 +12,6 @@ export default function About(){
                 <span className="mb-3">as many choices as possible</span>
                 <button className="btn btn-primary explore p-2">Plan a trip</button>
             </div>
-            
             <img src={heroBanner} className="img"/>
         </div>
     )
